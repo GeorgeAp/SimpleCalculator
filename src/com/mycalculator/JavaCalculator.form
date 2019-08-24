@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.mycalculator.JavaCalculator">
-  <grid id="27dc6" binding="JavaCalculator" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="JavaCalculator" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="25" left="20" bottom="25" right="20"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties>
-      <font/>
+      <font name="Impact"/>
+      <name value="Calculator"/>
     </properties>
     <border type="line">
       <color color="-4473925"/>
@@ -172,6 +173,15 @@
           <font name="Tahoma" size="11" style="1"/>
           <horizontalAlignment value="10"/>
           <toolTipText value="Input value to calculate here"/>
+        </properties>
+      </component>
+      <component id="1dd48" class="javax.swing.JLabel" binding="labelDeveloperName">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="MS Gothic" size="8" style="2"/>
+          <text value="MicroLearn Cafe"/>
         </properties>
       </component>
     </children>
